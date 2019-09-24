@@ -42,6 +42,6 @@ function removeElementFromEndOfArray(array) {
 
 function accessElementInArray(array, index) {
   var x = array
-  console.log(x[0])
+  console.log(x[index])
   return x
 }
