@@ -39,3 +39,9 @@ function removeElementFromEndOfArray(array) {
   x = x.slice(0, x.length - 1)
   return x
 }
+
+function accessElementInArray(array, index) {
+  var x = array
+  console.log(x[0])
+  return x
+}
